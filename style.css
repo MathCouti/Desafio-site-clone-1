@@ -81,9 +81,19 @@ img{
 }
 
 
-@media (max-width: 960px){
+@media screen and (max-width: 768px){
     img{
-        width: 400px
-    }
+       left: 70px;
+       width: 550px;
+       height: 350px;
+       top: 100px;
+    }   
 }
 
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
